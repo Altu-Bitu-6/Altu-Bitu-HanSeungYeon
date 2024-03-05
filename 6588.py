@@ -21,6 +21,7 @@ def sosu(n, primes):    #숫자 n까지 소수의 목록
 
 while True:
     n = int(input())
+    
     if n == 0:
         break
     

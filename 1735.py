@@ -13,6 +13,5 @@ def gcd(a,b):
     return b
 
 #최대곻약수 n
-
 n = gcd(a * y + b * x, b * y)
 print((a * y + b * x) // n, (b * y) // n)
